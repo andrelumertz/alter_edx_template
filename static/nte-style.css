@@ -63,7 +63,7 @@
 #paciente-seguro h1 {
     font-size: 1.2em !important;
     font-weight: bold !important;
-    color: #daa1a1 !important;
+    color: #0fbcf9 !important;
     margin: 0 !important;
 }
 #paciente-seguro h2 {
@@ -78,9 +78,9 @@
     color:#666 !important;
 }
 #paciente-seguro span {
-    padding: 0 15px 0 15px !important;
+    padding: 5 15px 5 15px !important;
     border-radius: 100px !important;
-    background-color: #daa1a1 !important;
+    background-color: #0fbcf9 !important;
     color:#ededec !important;
     margin: 0 6px 0 0 !important;
     font-weight: bold !important;
@@ -94,14 +94,14 @@
 }
 #paciente-seguro .box-pontilhado {
     padding: 5px !important;
-    border: 2px dashed #ededec !important;
+    border: 2px dashed #a0e5fd !important;
 }
 #paciente-seguro .box-extra {
     background-color: #ededec !important;
     padding: 30px !important;
 }
 #paciente-seguro .box-mais {
-    border: 2px dashed #ededec !important;
+    border: 2px dashed #a0e5fd !important;
     padding: 30px !important;
 }
 #paciente-seguro .box-mais h1 {
@@ -111,7 +111,7 @@
     padding: 7px 15px 7px 15px !important;
     margin-top: -49px !important;
     margin-bottom: 15px !important;
-    background-color: #daa1a1 !important;
+    background-color: #0fbcf9 !important;
     font-size: 1em !important;
     font-weight: bold !important;
     color:#fff !important;
