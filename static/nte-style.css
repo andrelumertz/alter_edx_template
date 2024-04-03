@@ -1,0 +1,333 @@
+/*!
+ * CSS3
+ * NTE STYLE v1
+ * Copyright 2020
+ * No Licensed
+ * Desenvolvedores: Eduardo Caletti, Thiago Studier, Paulo Martins, Denise Leite e André Lumertz
+ */
+
+
+
+
+/* GERAL */
+#paciente-seguro #cep #anvisa #teleutip #tmo #pesquisa-clinica, .grid-edx,.problem.action,.problem .notification,.poll-block-form-wrapper{
+    max-width: 1080px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    float: unset !important;
+}
+.body h1, h2, h3, h4, h5, h6, p, label {
+    font-family: Arial !important;
+    font-weight: normal !important;
+    line-height: normal !important;
+    color:#666 !important;
+    margin-top: 0 !important;
+    letter-spacing: normal !important;
+}
+.body p:last-child {
+    margin: 0 !important;
+}
+.body img {
+    width: 100% !important;
+}
+.body .center-objeto {
+    display: flex !important;
+    align-items: center !important;
+}
+.body i {
+    font-style: normal !important;
+}
+@media handheld, only screen and (max-width: 767px) {
+    #paciente-seguro #cep #anvisa #teleutip #tmo #pesquisa-clinica .grid-edx {
+        max-width: 100% !important;
+   }
+}
+/* end GERAL */
+
+
+
+
+
+/* PACIENTE SEGURO */
+#paciente-seguro .header-paciente-seguro {
+    width: 100% !important;
+    position: relative !important;
+    padding: 25px 0 25px 0 !important;
+    background: url(back-paciente-seguro.png) center center repeat !important;
+}
+#paciente-seguro img.separador {
+    height: 5px !important;
+    position: absolute;
+    bottom: 0 !important;
+}
+#paciente-seguro h1 {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    color: #daa1a1 !important;
+    margin: 0 !important;
+}
+#paciente-seguro h2 {
+    font-size: 0.9em !important;
+    margin: 0 0 5px 0 !important;
+    color:#666 !important;
+    letter-spacing: unset !important;
+}
+#paciente-seguro p {
+    font-size: 0.95em !important;
+    line-height: 21px !important;
+    color:#666 !important;
+}
+#paciente-seguro span {
+    padding: 0 15px 0 15px !important;
+    border-radius: 100px !important;
+    background-color: #daa1a1 !important;
+    color:#ededec !important;
+    margin: 0 6px 0 0 !important;
+    font-weight: bold !important;
+}
+#paciente-seguro .header-paciente-seguro img {
+    width: 100% !important;
+}
+#paciente-seguro .box-objeto {
+    padding: 30px 100px 30px 100px !important;
+    background:url(bg-paciente-seguro.jpg) center center repeat !important;
+}
+#paciente-seguro .box-pontilhado {
+    padding: 5px !important;
+    border: 2px dashed #ededec !important;
+}
+#paciente-seguro .box-extra {
+    background-color: #ededec !important;
+    padding: 30px !important;
+}
+#paciente-seguro .box-mais {
+    border: 2px dashed #ededec !important;
+    padding: 30px !important;
+}
+#paciente-seguro .box-mais h1 {
+    display: table !important;
+    margin: 0 auto !important;
+    width: auto !important;
+    padding: 7px 15px 7px 15px !important;
+    margin-top: -49px !important;
+    margin-bottom: 15px !important;
+    background-color: #daa1a1 !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    color:#fff !important;
+    border-radius: 100px !important;
+}
+#paciente-seguro .color-destaque {
+    color:#daa1a1 !important;
+}
+#paciente-seguro h1.titulo-objeto {
+    font-size: 2em !important;
+    font-weight: normal !important;
+    color:#666 !important;
+}
+#paciente-seguro img.linha-separacao {
+    width: 120px !important;
+    height: 4px !important;
+    margin: 15px 0 15px 0 !important;
+}
+#paciente-seguro .table-paciente-seguro {
+    width: 100% !important;
+}
+#paciente-seguro .table-paciente-seguro th {
+    width: 50% !important;
+    background-color: #ededec !important;
+    padding: 10px !important;
+}
+#paciente-seguro .table-paciente-seguro td {
+    border: 1px solid #ededec !important;
+    margin: 0 !important;
+    padding: 15px !important;
+}
+#paciente-seguro .table-paciente-seguro th p {
+    color:#daa1a1 !important;
+    font-weight: bold !important;
+}
+@media handheld, only screen and (max-width: 767px) {
+    #paciente-seguro .header-paciente-seguro {
+        padding: 30px !important;
+        background: none !important;
+        background-color: #ededec !important;
+    }
+    #paciente-seguro .box-objeto {
+        padding: 30px !important;
+        background: none !important;
+        background-color: #ededec !important;
+    }
+}
+/* end PACIENTE SEGURO */
+
+
+
+
+
+
+
+
+
+
+/* CEP */
+#cep {
+    margin-top: 40px !important;
+}
+#cep h1 {
+    font-size: 1.4em !important;
+    color: #003b81 !important;
+    font-weight: bold !important;
+}
+#cep h2 {
+    font-size: 0.95em !important;
+    color: #003b81 !important;
+    font-weight: bold !important;
+    margin: 0 !important;
+}
+#cep h3 {
+    font-size: 1.1em !important;
+    color: #003b81 !important;
+    font-weight: bold !important;
+}
+#cep p {
+    font-size: 0.9em !important;
+    line-height: 23px !important;
+    color: #666 !important;
+}
+#cep a {
+    font-size: 0.9em !important;
+    color:#003b81 !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+#cep .box-separador {
+    width: 100px !important;
+    height: 5px !important;
+    background-color: #ededec !important;
+    margin: 10px 0 20px 0 !important;
+    border-radius: 100px !important;
+}
+#cep .box-objeto {
+    padding: 25px !important;
+    background: url(back-cep.jpg) center top repeat !important;
+    border-radius: 10px !important;
+}
+#cep .color-destaque {
+    color:#e7501c !important;
+}
+#cep .color-destaque-azul {
+    color:#003b81 !important;
+}
+#cep p.orientacao {
+    font-size: 0.6em !important;
+    color: #666 !important;
+    letter-spacing: normal !important;
+    text-transform: uppercase !important;
+}
+#cep .box-complementar {
+    padding: 25px !important;
+    border: 5px solid #ededec !important;
+    border-radius: 10px !important;
+}
+#cep .box-branco {
+    background-color: #fff !important;
+    padding: 20px !important;
+    text-align: left !important;
+    border-radius: 10px !important;
+}
+#cep .video {
+    border-radius: 10px !important;
+}
+#cep ul {
+    list-style-type: none !important;
+    padding: 0 !important;
+}
+#cep ul li {
+    display: block !important;
+    text-decoration: none !important;
+    font-size: 0.9em !important;
+    line-height: 21px !important;
+    list-style-type: none !important;
+}
+
+/*.cor-1 { color: #003a80 !important; }*/
+/*.cor-2 { color: #70cbee !important; }*/
+/*.cor-3 { color: #e7501c !important; }*/
+/*.cor-4 { color: #f6a933 !important; }*/
+
+/* end CEP */
+
+
+
+
+
+
+
+
+
+
+/* ANVISA */
+/* end ANVISA */
+
+
+
+
+
+
+
+
+
+
+/* TELEUTIP */
+/* end TELEUTIP */
+
+
+
+
+
+
+
+
+
+
+/* TMO */
+/* end TMO */
+
+
+
+
+
+
+
+
+
+
+/* PESQUISA CLINICA */
+/* end PESQUISA CLINICA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
